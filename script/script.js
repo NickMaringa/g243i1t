@@ -1,3 +1,6 @@
 function aperte (){
-    alert("Olá, querida!")
+    while(true){
+        alert("Vírus detectado!")
+    }
+   
 }
