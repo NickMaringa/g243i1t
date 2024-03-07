@@ -1,7 +1,15 @@
 .btn { 
+    margin-top:20%; 
     background-color: rgb(240, 171, 171);
     color: black;
-    font-size: 71px;
+    text-align: center;
+    width:80% ;
+    height:30% ;
+    font-size: 40px ;
+}
+.conteudo{
+  text-align:center;
+
 }
 body {
     background-color: rgb(163, 172, 197);
@@ -11,4 +19,59 @@ body {
     height:70%;
     text-align:center;
     background-color:pink ;
+}
+.desktop{
+   display:none;
+}
+.tablet{
+  display:none ;
+}
+.mobile{
+    font-size: 50px ;
+    color:rgb(34, 6, 34) ;
+}
+@media (min-width:800px) {
+ .barra{
+     background-color:rgb(134, 2, 95) ;
+    height:80px ;
+ }
+ .mobile{
+    display:none;
+ }
+.tablet{
+    font-size:55px ;
+    display:inline ;
+    color:rgb(177, 122, 177) ;
+   
+ }
+ .btn { 
+    margin-top:0; 
+    width:80% ;
+    font-size: 16px ;
+}
+.conteudo{
+  text-align:right;
+
+}
+ 
+}
+
+@media (min-width:1228px){
+  .barra{
+    background-color:rgb(196, 196, 130) ;
+    height:120px;
+  }
+   .tablet{
+    display:none ;
+   }
+   .desktop{
+      display:inline ;
+      font-size:70px;
+      color:blueviolet;
+    }
+
+    .conteudo{
+      text-align:left;
+    
+    }
 }
