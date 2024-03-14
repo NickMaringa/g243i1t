@@ -1,0 +1,102 @@
+.btn { 
+  
+    background-color: rgb(145, 107, 196);
+    color: black;
+    text-align: center;
+    width:100% ;
+    font-size: 26px ;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.aba{
+  width: 100%;
+  height: 400px;
+}
+#aba1{
+  background-color: rgb(8, 36, 78);
+}
+  #aba2{
+    background-color: rgb(19, 71, 150);
+}
+#aba3{
+  background-color: rgb(46, 108, 202);
+}
+#aba4{
+  background-color: rgb(104, 153, 226);
+}
+#aba5{
+  background-color: rgb(122, 162, 221);
+}
+
+.conteudo{
+  text-align:center;
+
+}
+body {
+    background-color: rgb(163, 172, 197);
+}
+.barra{
+    width:100%;
+    height:70%;
+    text-align:center;
+    background-color:pink ;
+}
+.desktop{
+   display:none;
+}
+.tablet{
+  display:none ;
+}
+.mobile{
+    font-size: 50px ;
+    color:rgb(34, 6, 34) ;
+}
+@media (min-width:800px) {
+ .barra{
+     background-color:rgb(134, 2, 95) ;
+    height:80px ;
+ }
+ .mobile{
+    display:none;
+ }
+.tablet{
+  font-size:55px ;
+  display:inline;
+  color: blue;
+   
+ }
+ .btn { 
+    margin-top:0%; 
+    width:19.5% ;
+    
+}
+.conteudo{
+  text-align:right;
+
+}
+ 
+}
+
+@media (min-width:1228px){
+  .barra{
+    background-color:rgb(90, 189, 192) ;
+    height:120px;
+  }
+   .tablet{
+    font-size:55px ;
+    display:inline;
+    color: blue;
+   }
+   
+   .desktop{
+    display:inline ;
+    font-size:70px;
+    color:rgb(0, 0, 0);
+  }
+    
+
+    .conteudo{
+      text-align:left;
+    
+    }
+}
